@@ -1,5 +1,7 @@
 # Redis-Basic-Transformations (University Assignment)
-We are going to use Redis to store a financial data stream and answer stream queries. We will use Redux API in order to connect to Redis Server.
+We installed Redis Server through Linux operating system (Ubuntu) environment.We used the programming language of R to implement all the tasks and we installed the “REDUX” package to RStudio to connect it to our Redis server.
+
+Our main target is to use Redis and its advantages, to store a financial data stream and answer some stream queries, as in the scenario we work as data analysts at a financial firm and we have access to a data stream of stock prices and buy/sell volumes of 11 well-known companies stocks. Moreover we have access to previous day’s aggregated information about these stocks.
 
 ## Senario
 You are a data analyst at a financial firm and you have access to a data stream of stock prices and buy/sell volumes of several popular companies’ stocks. You also have access to previous day’s aggregated information about these stocks. You are asked to create a number of programs for the tasks listed in the “TASKS” section.
