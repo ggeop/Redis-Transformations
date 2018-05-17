@@ -4,13 +4,11 @@ We are going to use Redis to store a financial data stream and answer stream que
 ## Senario
 You are a data analyst at a financial firm and you have access to a data stream of stock prices and buy/sell volumes of several popular companies’ stocks. You also have access to previous day’s aggregated information about these stocks. You are asked to create a number of programs for the tasks listed in the “TASKS” section.
 
-## STREAM INPUT
-
-### GENERAL NOTES
+## General Notes
 Tuples returned from the server are in the form of:
 “STOCK_ID, STOCK_PRICE, SELL_VOLUME, BUY_VOLUME”
 
-### Field Description
+## Field Description
 -	STOCK_ID: The ID of the stock. Eg. GOOG stands for Google.
 
 -	STOCK_PRICE: The current price of the stock.
@@ -19,7 +17,7 @@ Tuples returned from the server are in the form of:
 
 -	BUY_VOLUME: The number of stocks that had been bought by the time this tuple was generated. This is constantly increasing as time goes by and is reset on each new day.
 
-### Tasks
+## Tasks
 
 **Task 1:**
 Write a program that reads the data stored in “aggregated_stock_data.csv” and stores values per stock id to Redis in an appropriate format. You should store values in a way to support the programs in Tasks 6-7.
